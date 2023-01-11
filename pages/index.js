@@ -5,12 +5,12 @@ import Logo from "../public/logo512.png";
 export default function Home() {
   return (
     <Flex justify={'center'} align={'center'} minH={'100vh'}>
-      <Stack>
-        <Box>
+      <Stack bg='rgba(255,255,255,0.35)' p={7} rounded="lg">
+        <Box ml={6} mr={6}>
           <Image src={Logo} alt="logo" />
         </Box>
         <Heading>
-          <Text textAlign={'center'}>Under Construction!</Text>
+          <Text textAlign={'center'} m={3}>Under Construction!</Text>
         </Heading>
       </Stack>
     </Flex>

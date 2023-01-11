@@ -1,9 +1,9 @@
-html {
-  background: rgb(2, 0, 36);
+html,body {
+  background: rgb(2, 0, 36) !important; 
   background: linear-gradient(
     40deg,
     rgba(2, 0, 36, 1) 0%,
     rgba(110, 9, 121, 1) 35%,
-    rgba(0, 212, 255, 0.7203256302521008) 100%
-  );
+    rgba(0, 212, 255, 0.7203256302521008) 100% 
+  ) !important;
 }
